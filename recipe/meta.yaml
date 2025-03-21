@@ -1,5 +1,5 @@
 {% set name = "pytrms" %}
-{% set version = "0.9.1" %}
+{% set version = "0.9.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytrms-{{ version }}.tar.gz
-  sha256: 4ed4bf0c02f8e895f7bcb570bae769d281a53717fef6cb6a757643b9970796eb
+  sha256: aec1eb750fbcb6c1400b1e3be139c83df9c098e87e59bbb1a9df103ad9f89b08
 
 build:
   noarch: python
